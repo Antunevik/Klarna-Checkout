@@ -1,4 +1,3 @@
-import { clearCookie } from 'express/lib/response';
 import fetch from 'node-fetch';
 
 async function getItemById(id) {

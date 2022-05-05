@@ -1,5 +1,3 @@
-import { getItemDescriptor } from '@babel/core/lib/config/item';
-import { intersection } from '@babel/preset-env/lib/utils';
 import fetch from 'node-fetch';
 
 function getKlarnaAuth() {

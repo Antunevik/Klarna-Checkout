@@ -1,4 +1,3 @@
-const { createUncachedDescriptors } = require('@babel/core/lib/config/config-descriptors');
 const app = require('../../loaders/express-handlebars');
 const { createOrder } = require('../../services/server/klarna');
 const { getCartById, getProductsFromCart } = require('../../services/server/fakeStore');
